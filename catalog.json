@@ -1,1 +1,471 @@
-{"schema":1,"revision":"2026-10-12T19:00:53.2341026Z","launcher":{"version":"0.1.4","url":"https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.4/DolmeongiLauncher.exe","sha256":"271024d58c7ae22f1b5e5388439a853c364b1882cd46b69789441a7b0afc9a66"},"games":[{"id":"bannerlord","title":"마운트 앤 블레이드 II: 배너로드","status":"active","message":"배너로드 1.4.8 / Co-op 0.1.6 · 한국어 + 유지비 5% 예산 표시 · 게임 안에서 시참 서버를 선택하세요.","appId":"261550","folder":"Mount \u0026 Blade II Bannerlord","adapter":"bannerlord","modules":["Native","SandBoxCore","CustomBattle","Sandbox","StoryMode","Coop","DolmeongiCoopKorean","DolmeongiCoopLowWages"],"processes":["Bannerlord","Bannerlord.Native","TaleWorlds.MountAndBlade.Launcher","BannerlordCoopServer","BannerlordCoopServer.Engine"],"gameFiles":[{"path":"bin/Win64_Shipping_Client/Bannerlord.exe","sha256":"5b50b56a2e13e5d7a00fd6c6f940285be50eeac0391e76b90d766dd497ab56be"},{"path":"bin/Win64_Shipping_Client/steam_api64.dll","sha256":"3c88cf2bf5fa5fd71c3fe836fd45bd53a0341b44315eba9f3b0ccf70669707e9"},{"path":"bin/Win64_Shipping_Client/Steamworks.NET.dll","sha256":"809feff6d3dba4d3481f8d6e0defc45f3244688d72d51db35d1ec09a97fb1499"},{"path":"bin/Win64_Shipping_Client/TaleWorlds.CampaignSystem.dll","sha256":"1f8e33e2ed73e6ec653d7629180afb70649ddc6e5bd1657a802a264efda1c3ae"},{"path":"bin/Win64_Shipping_Client/TaleWorlds.MountAndBlade.dll","sha256":"19387f31557ff840d14f378f6bbdf1d58fcff406ab9ff2294dfbb3e49a50b87e"},{"path":"Modules/CustomBattle/SubModule.xml","sha256":"c97f28947e4ec5c2c72dfa6f41fb2c946f2c810081272a5e183f69675bbf1a69"},{"path":"Modules/Native/SubModule.xml","sha256":"38e8f6fa52498346cda474ea648d59cab0180284209f603d2bb1161e2b2bfefe"},{"path":"Modules/Sandbox/SubModule.xml","sha256":"179168441d5696c64e9a7bb53ea93c0b61302e40fd20b504c0fc57141a9c02ec"},{"path":"Modules/SandBoxCore/SubModule.xml","sha256":"d0b0ffe3c335d16d069dbdade4e70de3f36a80f838282a214e5e783b232de06e"},{"path":"Modules/StoryMode/SubModule.xml","sha256":"fc2d9ad4f60d52e01e35c587ec809ab7fbcc6e0ddad1e3b5bf4aa94f1fd408a3"}],"components":[{"id":"Coop","name":"Bannerlord Co-op","source":"steam","workshopId":"3770450698","moduleId":"Coop","version":"0.1.6","files":[{"path":"bin/Win64_Shipping_Client/0Harmony.dll","sha256":"7d069f4a7d9a2d4a0085ecb901e4e764012b23a750e3e68678a16e1aee6b3cb4"},{"path":"bin/Win64_Shipping_Client/Autofac.dll","sha256":"41efa02948de18557e177d95b6b8a45759e8888064dcd0513ec5199c82606ac0"},{"path":"bin/Win64_Shipping_Client/Common.dll","sha256":"d5a500734aa27d179e36af882f4b41f7db481f1bb485c5426f050fb4a7bb6494"},{"path":"bin/Win64_Shipping_Client/Concentus.dll","sha256":"c511b150acda8a4ec4810901ed4734d7fcaf701c240fb6c0ccc62fce5d2e74b7"},{"path":"bin/Win64_Shipping_Client/Coop.Core.dll","sha256":"7cd7f77ccfe88cb482a2d13fcea593e17c7b9ef05d3cf449d844d38ba5d2a587"},{"path":"bin/Win64_Shipping_Client/Coop.CrashReporter.exe","sha256":"d89a4724a5666f8d2adabd904b5290a321d55ee5e47d027d8c412e076f95efcc"},{"path":"bin/Win64_Shipping_Client/Coop.dll","sha256":"f3602c94986ce82c81ab9dfb29e04dab2b3310a581ed874dba8958df23e0913e"},{"path":"bin/Win64_Shipping_Client/Coop.Steam.dll","sha256":"89d46d98b38d257d5c4ba678657e92500940fb635474e3e8a7e6a283a5649660"},{"path":"bin/Win64_Shipping_Client/DiscordRPC.dll","sha256":"a1d9aa7d2fab304cbe10b772b563ca0542d751f25fe49c6b6650d3aa891f5c78"},{"path":"bin/Win64_Shipping_Client/Fmod5Sharp.dll","sha256":"f4a671182c618196288d2fa1e6a87d7197c2348afa32fe15b0d1fa7d6dcd68f5"},{"path":"bin/Win64_Shipping_Client/GameInterface.dll","sha256":"104cc2cc1da6460a27bf519148987b5ee0e257b37aced80c9877c1db65a6649f"},{"path":"bin/Win64_Shipping_Client/K4os.Compression.LZ4.dll","sha256":"e14f17f8af46da989cd7d4db4bc4eeaad3fb4c23393195a37ffa6d2385286e85"},{"path":"bin/Win64_Shipping_Client/LiteNetLib.dll","sha256":"7dacd30edffe16fe7b56c52883687351da12631a0fa72fa1ab44bba8a0446836"},{"path":"bin/Win64_Shipping_Client/Microsoft.Bcl.AsyncInterfaces.dll","sha256":"4187f96099adcdbdeae192b9515eeeeafead8af2f9b5f20ee4b81306bfd9c605"},{"path":"bin/Win64_Shipping_Client/Microsoft.CodeAnalysis.CSharp.dll","sha256":"8cc601ecb38e005652cd5b50d5cdcf8d30b42d0af5a3661dbd9c61da837133f8"},{"path":"bin/Win64_Shipping_Client/Microsoft.CodeAnalysis.dll","sha256":"8e5eb231aa8eeecc9f5f44da9f4fc2663c44a2ec2ca5c35ca97464414d305755"},{"path":"bin/Win64_Shipping_Client/Microsoft.Win32.Registry.dll","sha256":"55d5de8b09fdc782a50024e3689e020077b284f3469fd8ad3f6ad12d6a40d858"},{"path":"bin/Win64_Shipping_Client/Missions.dll","sha256":"904620c9e93c6a76f0b665af89c05c240d770493c4570ef7c459786581e49dd6"},{"path":"bin/Win64_Shipping_Client/Mono.Cecil.dll","sha256":"d824b583e4132e77ae881c6b2166776e393c63916a1b16438009d3171eb97652"},{"path":"bin/Win64_Shipping_Client/Mono.Cecil.Mdb.dll","sha256":"8753e0ab95da81902d22d9fe07da9d44aee0c258a4d08c370ce0e9e2ce6e1ca3"},{"path":"bin/Win64_Shipping_Client/Mono.Cecil.Pdb.dll","sha256":"be42aed2d3acc1907ee1d2a3de12d1e9c850c8e6c4eb0b6f81522a6a5c994f5d"},{"path":"bin/Win64_Shipping_Client/Mono.Cecil.Rocks.dll","sha256":"e51b02009ee015f9bc9880cb458c4a93847013be799bff2dc842d7cbf7e6e29a"},{"path":"bin/Win64_Shipping_Client/MonoMod.Backports.dll","sha256":"7c51e797ed5e14f825c7b33698a60a372452aad309c03a6102ce3ef527f07bfe"},{"path":"bin/Win64_Shipping_Client/MonoMod.Core.dll","sha256":"9f5a777ec914d2413c8e6aeb34eb0bad00799903d357f48368e2da2a1d2e16e8"},{"path":"bin/Win64_Shipping_Client/MonoMod.Iced.dll","sha256":"5e77e5f154c010eb0d0321ba4bc17111651b14c42887666e65fa05741d633f20"},{"path":"bin/Win64_Shipping_Client/MonoMod.ILHelpers.dll","sha256":"9bae5c8d375bb3dcabb5ee6dce2a4b1fa5ce3efc2f1e1198fb280d486e36cf2d"},{"path":"bin/Win64_Shipping_Client/MonoMod.RuntimeDetour.dll","sha256":"c6576e5f6e86530ac193bb5a55e168a817e28f96293e24c7ca027f65516d086f"},{"path":"bin/Win64_Shipping_Client/MonoMod.Utils.dll","sha256":"86ac056fde7579174b44177a48423deab1a40020365c35e43bfa3e9083c9227d"},{"path":"bin/Win64_Shipping_Client/NAudio.Core.dll","sha256":"59ef81de3a30b1496a813f13980cd77ce6bc9c0e7ecde8bc860a60d8247d0b4b"},{"path":"bin/Win64_Shipping_Client/NAudio.WinMM.dll","sha256":"32c4d936173e195cce301c15bfce2b48ee8355d752bc55b4db26fca4b6ff4ae8"},{"path":"bin/Win64_Shipping_Client/Newtonsoft.Json.dll","sha256":"b4459cec4a6afe31c45825808ef96caf425fc5b8e5d2c3649ac7960d8973c2a0"},{"path":"bin/Win64_Shipping_Client/OggVorbisEncoder.dll","sha256":"c13ef6df4cfbe3d574cfa31a1980f409054f766ad52a9afd13d12a4be56252dd"},{"path":"bin/Win64_Shipping_Client/protobuf-net.Core.dll","sha256":"037538f4acfa4b8cc58a577a5d99a94e0e066fbab919aa2f0226b06b4cb70d29"},{"path":"bin/Win64_Shipping_Client/protobuf-net.dll","sha256":"03f462abf42e6eefa53832ead5a90a706204507284b3e89e58d3c68e70b7bc2b"},{"path":"bin/Win64_Shipping_Client/Scriban.dll","sha256":"eb2f60a5b81437f8a8edfe3e2144538211c350354090781d8d991bb75b0e1815"},{"path":"bin/Win64_Shipping_Client/Serilog.dll","sha256":"68d8aac65ed8ad6a834afeea32535917eb783a9ab84e2728a3253f22480b927e"},{"path":"bin/Win64_Shipping_Client/Serilog.Enrichers.Process.dll","sha256":"c44afd496a193440cf6e46e22c299e05df1ba501d0f83f8d4913f37f46530aae"},{"path":"bin/Win64_Shipping_Client/Serilog.Sinks.Debug.dll","sha256":"1dc7c7fb94c4c7fe9ed0e343e96e21db29e721025d8df9a8e8eb30d8221aa582"},{"path":"bin/Win64_Shipping_Client/Serilog.Sinks.File.dll","sha256":"fd4671c8d304c17645c41863e13c471184b5ee7e04e2e5b848a833935792e885"},{"path":"bin/Win64_Shipping_Client/Serilog.Sinks.Seq.dll","sha256":"7323264db2118f3130b9832e6025f5b61ab2c888f991c7c4e18a9513005bb15b"},{"path":"bin/Win64_Shipping_Client/System.Buffers.dll","sha256":"25582b1add16be5914c3b454362302b46f90cb3ca64b8c917c64c38a12783641"},{"path":"bin/Win64_Shipping_Client/System.Collections.Immutable.dll","sha256":"403ff9018573eeb04209f80cbddc523809c58cd56940608079d7928b0ca6882d"},{"path":"bin/Win64_Shipping_Client/System.Diagnostics.DiagnosticSource.dll","sha256":"3c92ddff57046cd555722af2589ddb8991972adf88d4be3a26b894c07b37a4d3"},{"path":"bin/Win64_Shipping_Client/System.IO.Pipelines.dll","sha256":"706346f87d1c7ef1b0bc8a0fd823aea9ed16fb497d9051f8b8cff0ae38b45491"},{"path":"bin/Win64_Shipping_Client/System.Memory.dll","sha256":"2e463ee9eb1c4b46449a9839a239a45381e5c212f139d09c9dea7e4a1eb6d428"},{"path":"bin/Win64_Shipping_Client/System.Numerics.Vectors.dll","sha256":"b65b5b5491a1af7dd1eea962ae69897f98cef76931ec3e53d513d4a0f5c01fce"},{"path":"bin/Win64_Shipping_Client/System.Reflection.Metadata.dll","sha256":"bca79325e1776d3a7666c7fdb6ff03f17eeb657997ce11ad6f9777dfa9b1fba7"},{"path":"bin/Win64_Shipping_Client/System.Runtime.CompilerServices.Unsafe.dll","sha256":"55f05275240a9513d2e5f8e125692b3588da8643d208ea3690cc8c0cb8ce954c"},{"path":"bin/Win64_Shipping_Client/System.Text.Encoding.CodePages.dll","sha256":"fb07d6615cd10d9fc47f45927e7f2c39db41f3c5cb6ae000a45bff10342c9e9e"},{"path":"bin/Win64_Shipping_Client/System.Text.Encodings.Web.dll","sha256":"141fdc20e9d854ce96f10c181493f0bfc8252de48b3e3a2f2bec18ac6dee92fc"},{"path":"bin/Win64_Shipping_Client/System.Text.Json.dll","sha256":"af9434b014f6354ef6d1f8263be4744f37d126f89380712c2de595bf275802fe"},{"path":"bin/Win64_Shipping_Client/System.Threading.Channels.dll","sha256":"3ea130b495d4c835c9983b65d14adaa2e045692fc3a8c84eba4c3e99d14b5f75"},{"path":"bin/Win64_Shipping_Client/System.Threading.Tasks.Extensions.dll","sha256":"d8ff6f3fa3ee82775eb15514723b6f70222ba7e86b434dd105e57a17c1782c09"},{"path":"bin/Win64_Shipping_Client/System.ValueTuple.dll","sha256":"a5b532c448690615371deb67521f1271e91aa2c634abb0df88ade55e8150ee30"},{"path":"GUI/Brushes/CoopPlayerList.xml","sha256":"46e4aabde60036ed82f9d3026d442ab0c0a2229972299d0d884fe77e0fbc8a38"},{"path":"GUI/Prefabs/CoopBugReportUIMovie.xml","sha256":"9fa2cdacce7b889823274feab17108958e499b697a083697bfc9baa4eda00140"},{"path":"GUI/Prefabs/CoopChatUIMovie.xml","sha256":"4ac0210f9c12e04569c0cdabec014ced7666534f6234c08e39d1a534522ea7f2"},{"path":"GUI/Prefabs/CoopConnectionUIMovie.xml","sha256":"a2b6cfdc0939a8f5f44353b902be4110702d31bfb65a47f40e6ca6f1891c2ab4"},{"path":"GUI/Prefabs/CoopJoinCancelOverlay.xml","sha256":"7c20c2f5630f55335bdbb503ba8eb45a562e6043ef580976355d694567a952c4"},{"path":"GUI/Prefabs/CoopLocationPlayerInteractionWaitingOverlay.xml","sha256":"c1d5f0563c307e88f0200766f6e1d74841bf6cb814b82d32c749d02e0396b674"},{"path":"GUI/Prefabs/CoopOptionsUIMovie.xml","sha256":"f9968f90f96ba545061026e56f9b79dc99f3bc220b5b153711742e1d52f85690"},{"path":"GUI/Prefabs/CoopPlayerListUIMovie.xml","sha256":"249fb9c04892ffcec628c9c885ca67c8c834ce777a25a4a32ab683d787e248e0"},{"path":"GUI/Prefabs/CoopPlayerPartyTradeOverlay.xml","sha256":"91e4e31cffa9bb9281d7105f6884dfea2fb4cae9a3f703844404df2b4ce41861"},{"path":"GUI/Prefabs/CoopTournamentScreen.xml","sha256":"f5449ea591b4669ba268c7b447e782833babc82c96cae36269ace40403985a7c"},{"path":"GUI/Prefabs/CoopVoiceSpeakers.xml","sha256":"9598f6b96cf2560caca9fc1899dfdd5391ac866bed72733fd1a5b6e6a6211bf6"},{"path":"GUI/Prefabs/CreditsPopupUIMovie.xml","sha256":"e60c58da6973603f436767b0f71b37b672a1c8143ffec61e882b240ca68b50cb"},{"path":"GUI/Prefabs/DonatePopupUIMovie.xml","sha256":"c03103adc3b757f573fbd4b1b0435d3d79792c7f2c6d05dafce77f2e37f5405c"},{"path":"GUI/Prefabs/EncyclopediaSettlementPage.xml","sha256":"7cced256c0c10417445ef227c0b776655aaf9dacc573908c959e140d1879184a"},{"path":"GUI/Prefabs/MissionMapTime.xml","sha256":"ade460c05e4260fc7a4dd7010eccc8a5bdb6df386932ee20221ec2397fe3eed7"},{"path":"GUI/Prefabs/PlayerNameplates.xml","sha256":"4e8e9cfd33721c426089017452e055f5690dd857e42770f37ff432670607566c"},{"path":"ModuleData/coop_fixed_town_npcs.xml","sha256":"04475a38473d593561cbf89cb19d7e3940bfb13fa05b284817a3aae2266a2c3c"},{"path":"ModuleData/coop_minor_faction_lords.xml","sha256":"c441089869fb2d1ec2c4ff954f9771946078d1977bf26f986e2b8399030de5d6"},{"path":"ModuleData/coop_minor_factions.xml","sha256":"3a22c896f2b672fe0729901f8f0e54d6dfc1ebee39fce0740cbe801ef9a1fdfd"},{"path":"ModuleData/coop_wanderer_strings.xml","sha256":"08e2d3418eebb6532f85dc5a8b517f430550c45090094c52005fe6e4ac830bb7"},{"path":"ModuleData/coop_wanderers.xml","sha256":"c1b2bc6f08c765eefcf1cea61814c99e9c1fbec2600ddf0c87521c246741ee9e"},{"path":"ModuleData/global_strings.xml","sha256":"fab6b14727228293c89659c173afe71ae4b21442e777ccf23da7baaa7008a71a"},{"path":"ModuleData/tournament_spectator_throwables.xml","sha256":"0d718f51534f4801793d1716c50e329531410a81c51b010b583bdcc9c277cdbb"},{"path":"SubModule.xml","sha256":"5245f653de28920b5f3b6e1cad7f72d53ba7db59144c1dc20f0d43c2b72aa8b4"}]},{"id":"DolmeongiCoopKorean","name":"Co-op 한국어","source":"github","moduleId":"DolmeongiCoopKorean","version":"0.1.0","root":"Modules/DolmeongiCoopKorean","url":"https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.2/DolmeongiCoopKorean-0.1.0.zip","sha256":"7b0f8f1078e86b828a2b4db3e157c2666a9f97eced903fa2fcb5998e0f96c613","files":[{"path":"bin/Win64_Shipping_Client/CoopKorean.dll","sha256":"f406fbb5e89a8f5c36398603a09ba8a3c3dc6750836c719c09f53950ad9bd599"},{"path":"ModuleData/Languages/KO/coop_korean.xml","sha256":"98c3f46cff59ef2d03037963faf60047ca3fd7d7d8f403bf77245631403addbe"},{"path":"ModuleData/Languages/KO/language_data.xml","sha256":"bbf854e16dcd02f2c6c01f0174656b28d3da4783d88f04b30c9aca298079bbc0"},{"path":"SubModule.xml","sha256":"3b0061aa459ebf3035465d3f081decf015a066db323bcebcdc2708d19233e6af"}]},{"id":"DolmeongiCoopLowWages","name":"유지비 5% · 예산 표시","source":"github","moduleId":"DolmeongiCoopLowWages","version":"0.1.1","root":"Modules/DolmeongiCoopLowWages","url":"https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.2/DolmeongiCoopLowWages-0.1.1.zip","sha256":"31a72ace8d060e8dc4d9c973431fdc874e5e73d1e21160082abf661f4e671d60","files":[{"path":"bin/Win64_Shipping_Client/CoopLowWages.Client.dll","sha256":"8eac7a2982ab98a47711bc35601a12f638eb9e920222e6eac65fab0fd98011ca"},{"path":"bin/Win64_Shipping_Client/CoopLowWages.dll","sha256":"4ca2b8e320681b71ac6856b2b6d2248ff98c52b2ecc03dac78a8a0e43d826294"},{"path":"SubModule.xml","sha256":"a2e0aad1208daf16304a6d2aa1172dcc82ee26c965d32c8e13063620e0e6c4ee"}]}]},{"id":"palworld","title":"팰월드","status":"hidden","message":"모드 구성과 게임별 설치·실행 연결을 준비하면 이 접속기에 추가됩니다.","appId":"1623730","folder":"Palworld","adapter":null,"modules":[],"processes":["Palworld-Win64-Shipping","PalServer-Win64-Shipping"],"gameFiles":[],"components":[]}]}
+{
+  "schema": 1,
+  "revision": "launcher-0.1.5-20261012T191542Z",
+  "launcher": {
+    "version": "0.1.5",
+    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.5/DolmeongiLauncher.exe",
+    "sha256": "8665f35a26a7300a3a879558e5f7c9bafc868879c8d4c525dcc96ef2a6efcb79"
+  },
+  "games": [
+    {
+      "id": "bannerlord",
+      "title": "마운트 앤 블레이드 II: 배너로드",
+      "status": "active",
+      "message": "배너로드 1.4.8 / Co-op 0.1.6 · 한국어 + 유지비 5% 예산 표시 · 게임 안에서 시참 서버를 선택하세요.",
+      "appId": "261550",
+      "folder": "Mount & Blade II Bannerlord",
+      "adapter": "bannerlord",
+      "modules": [
+        "Native",
+        "SandBoxCore",
+        "CustomBattle",
+        "Sandbox",
+        "StoryMode",
+        "Coop",
+        "DolmeongiCoopKorean",
+        "DolmeongiCoopLowWages"
+      ],
+      "processes": [
+        "Bannerlord",
+        "Bannerlord.Native",
+        "TaleWorlds.MountAndBlade.Launcher",
+        "BannerlordCoopServer",
+        "BannerlordCoopServer.Engine"
+      ],
+      "gameFiles": [
+        {
+          "path": "bin/Win64_Shipping_Client/Bannerlord.exe",
+          "sha256": "5b50b56a2e13e5d7a00fd6c6f940285be50eeac0391e76b90d766dd497ab56be"
+        },
+        {
+          "path": "bin/Win64_Shipping_Client/steam_api64.dll",
+          "sha256": "3c88cf2bf5fa5fd71c3fe836fd45bd53a0341b44315eba9f3b0ccf70669707e9"
+        },
+        {
+          "path": "bin/Win64_Shipping_Client/Steamworks.NET.dll",
+          "sha256": "809feff6d3dba4d3481f8d6e0defc45f3244688d72d51db35d1ec09a97fb1499"
+        },
+        {
+          "path": "bin/Win64_Shipping_Client/TaleWorlds.CampaignSystem.dll",
+          "sha256": "1f8e33e2ed73e6ec653d7629180afb70649ddc6e5bd1657a802a264efda1c3ae"
+        },
+        {
+          "path": "bin/Win64_Shipping_Client/TaleWorlds.MountAndBlade.dll",
+          "sha256": "19387f31557ff840d14f378f6bbdf1d58fcff406ab9ff2294dfbb3e49a50b87e"
+        },
+        {
+          "path": "Modules/CustomBattle/SubModule.xml",
+          "sha256": "c97f28947e4ec5c2c72dfa6f41fb2c946f2c810081272a5e183f69675bbf1a69"
+        },
+        {
+          "path": "Modules/Native/SubModule.xml",
+          "sha256": "38e8f6fa52498346cda474ea648d59cab0180284209f603d2bb1161e2b2bfefe"
+        },
+        {
+          "path": "Modules/Sandbox/SubModule.xml",
+          "sha256": "179168441d5696c64e9a7bb53ea93c0b61302e40fd20b504c0fc57141a9c02ec"
+        },
+        {
+          "path": "Modules/SandBoxCore/SubModule.xml",
+          "sha256": "d0b0ffe3c335d16d069dbdade4e70de3f36a80f838282a214e5e783b232de06e"
+        },
+        {
+          "path": "Modules/StoryMode/SubModule.xml",
+          "sha256": "fc2d9ad4f60d52e01e35c587ec809ab7fbcc6e0ddad1e3b5bf4aa94f1fd408a3"
+        }
+      ],
+      "components": [
+        {
+          "id": "Coop",
+          "name": "Bannerlord Co-op",
+          "source": "steam",
+          "workshopId": "3770450698",
+          "moduleId": "Coop",
+          "version": "0.1.6",
+          "files": [
+            {
+              "path": "bin/Win64_Shipping_Client/0Harmony.dll",
+              "sha256": "7d069f4a7d9a2d4a0085ecb901e4e764012b23a750e3e68678a16e1aee6b3cb4"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Autofac.dll",
+              "sha256": "41efa02948de18557e177d95b6b8a45759e8888064dcd0513ec5199c82606ac0"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Common.dll",
+              "sha256": "d5a500734aa27d179e36af882f4b41f7db481f1bb485c5426f050fb4a7bb6494"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Concentus.dll",
+              "sha256": "c511b150acda8a4ec4810901ed4734d7fcaf701c240fb6c0ccc62fce5d2e74b7"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Coop.Core.dll",
+              "sha256": "7cd7f77ccfe88cb482a2d13fcea593e17c7b9ef05d3cf449d844d38ba5d2a587"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Coop.CrashReporter.exe",
+              "sha256": "d89a4724a5666f8d2adabd904b5290a321d55ee5e47d027d8c412e076f95efcc"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Coop.dll",
+              "sha256": "f3602c94986ce82c81ab9dfb29e04dab2b3310a581ed874dba8958df23e0913e"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Coop.Steam.dll",
+              "sha256": "89d46d98b38d257d5c4ba678657e92500940fb635474e3e8a7e6a283a5649660"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/DiscordRPC.dll",
+              "sha256": "a1d9aa7d2fab304cbe10b772b563ca0542d751f25fe49c6b6650d3aa891f5c78"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Fmod5Sharp.dll",
+              "sha256": "f4a671182c618196288d2fa1e6a87d7197c2348afa32fe15b0d1fa7d6dcd68f5"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/GameInterface.dll",
+              "sha256": "104cc2cc1da6460a27bf519148987b5ee0e257b37aced80c9877c1db65a6649f"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/K4os.Compression.LZ4.dll",
+              "sha256": "e14f17f8af46da989cd7d4db4bc4eeaad3fb4c23393195a37ffa6d2385286e85"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/LiteNetLib.dll",
+              "sha256": "7dacd30edffe16fe7b56c52883687351da12631a0fa72fa1ab44bba8a0446836"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Microsoft.Bcl.AsyncInterfaces.dll",
+              "sha256": "4187f96099adcdbdeae192b9515eeeeafead8af2f9b5f20ee4b81306bfd9c605"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Microsoft.CodeAnalysis.CSharp.dll",
+              "sha256": "8cc601ecb38e005652cd5b50d5cdcf8d30b42d0af5a3661dbd9c61da837133f8"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Microsoft.CodeAnalysis.dll",
+              "sha256": "8e5eb231aa8eeecc9f5f44da9f4fc2663c44a2ec2ca5c35ca97464414d305755"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Microsoft.Win32.Registry.dll",
+              "sha256": "55d5de8b09fdc782a50024e3689e020077b284f3469fd8ad3f6ad12d6a40d858"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Missions.dll",
+              "sha256": "904620c9e93c6a76f0b665af89c05c240d770493c4570ef7c459786581e49dd6"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Mono.Cecil.dll",
+              "sha256": "d824b583e4132e77ae881c6b2166776e393c63916a1b16438009d3171eb97652"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Mono.Cecil.Mdb.dll",
+              "sha256": "8753e0ab95da81902d22d9fe07da9d44aee0c258a4d08c370ce0e9e2ce6e1ca3"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Mono.Cecil.Pdb.dll",
+              "sha256": "be42aed2d3acc1907ee1d2a3de12d1e9c850c8e6c4eb0b6f81522a6a5c994f5d"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Mono.Cecil.Rocks.dll",
+              "sha256": "e51b02009ee015f9bc9880cb458c4a93847013be799bff2dc842d7cbf7e6e29a"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/MonoMod.Backports.dll",
+              "sha256": "7c51e797ed5e14f825c7b33698a60a372452aad309c03a6102ce3ef527f07bfe"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/MonoMod.Core.dll",
+              "sha256": "9f5a777ec914d2413c8e6aeb34eb0bad00799903d357f48368e2da2a1d2e16e8"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/MonoMod.Iced.dll",
+              "sha256": "5e77e5f154c010eb0d0321ba4bc17111651b14c42887666e65fa05741d633f20"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/MonoMod.ILHelpers.dll",
+              "sha256": "9bae5c8d375bb3dcabb5ee6dce2a4b1fa5ce3efc2f1e1198fb280d486e36cf2d"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/MonoMod.RuntimeDetour.dll",
+              "sha256": "c6576e5f6e86530ac193bb5a55e168a817e28f96293e24c7ca027f65516d086f"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/MonoMod.Utils.dll",
+              "sha256": "86ac056fde7579174b44177a48423deab1a40020365c35e43bfa3e9083c9227d"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/NAudio.Core.dll",
+              "sha256": "59ef81de3a30b1496a813f13980cd77ce6bc9c0e7ecde8bc860a60d8247d0b4b"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/NAudio.WinMM.dll",
+              "sha256": "32c4d936173e195cce301c15bfce2b48ee8355d752bc55b4db26fca4b6ff4ae8"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Newtonsoft.Json.dll",
+              "sha256": "b4459cec4a6afe31c45825808ef96caf425fc5b8e5d2c3649ac7960d8973c2a0"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/OggVorbisEncoder.dll",
+              "sha256": "c13ef6df4cfbe3d574cfa31a1980f409054f766ad52a9afd13d12a4be56252dd"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/protobuf-net.Core.dll",
+              "sha256": "037538f4acfa4b8cc58a577a5d99a94e0e066fbab919aa2f0226b06b4cb70d29"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/protobuf-net.dll",
+              "sha256": "03f462abf42e6eefa53832ead5a90a706204507284b3e89e58d3c68e70b7bc2b"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Scriban.dll",
+              "sha256": "eb2f60a5b81437f8a8edfe3e2144538211c350354090781d8d991bb75b0e1815"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Serilog.dll",
+              "sha256": "68d8aac65ed8ad6a834afeea32535917eb783a9ab84e2728a3253f22480b927e"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Serilog.Enrichers.Process.dll",
+              "sha256": "c44afd496a193440cf6e46e22c299e05df1ba501d0f83f8d4913f37f46530aae"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Serilog.Sinks.Debug.dll",
+              "sha256": "1dc7c7fb94c4c7fe9ed0e343e96e21db29e721025d8df9a8e8eb30d8221aa582"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Serilog.Sinks.File.dll",
+              "sha256": "fd4671c8d304c17645c41863e13c471184b5ee7e04e2e5b848a833935792e885"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/Serilog.Sinks.Seq.dll",
+              "sha256": "7323264db2118f3130b9832e6025f5b61ab2c888f991c7c4e18a9513005bb15b"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Buffers.dll",
+              "sha256": "25582b1add16be5914c3b454362302b46f90cb3ca64b8c917c64c38a12783641"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Collections.Immutable.dll",
+              "sha256": "403ff9018573eeb04209f80cbddc523809c58cd56940608079d7928b0ca6882d"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Diagnostics.DiagnosticSource.dll",
+              "sha256": "3c92ddff57046cd555722af2589ddb8991972adf88d4be3a26b894c07b37a4d3"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.IO.Pipelines.dll",
+              "sha256": "706346f87d1c7ef1b0bc8a0fd823aea9ed16fb497d9051f8b8cff0ae38b45491"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Memory.dll",
+              "sha256": "2e463ee9eb1c4b46449a9839a239a45381e5c212f139d09c9dea7e4a1eb6d428"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Numerics.Vectors.dll",
+              "sha256": "b65b5b5491a1af7dd1eea962ae69897f98cef76931ec3e53d513d4a0f5c01fce"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Reflection.Metadata.dll",
+              "sha256": "bca79325e1776d3a7666c7fdb6ff03f17eeb657997ce11ad6f9777dfa9b1fba7"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Runtime.CompilerServices.Unsafe.dll",
+              "sha256": "55f05275240a9513d2e5f8e125692b3588da8643d208ea3690cc8c0cb8ce954c"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Text.Encoding.CodePages.dll",
+              "sha256": "fb07d6615cd10d9fc47f45927e7f2c39db41f3c5cb6ae000a45bff10342c9e9e"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Text.Encodings.Web.dll",
+              "sha256": "141fdc20e9d854ce96f10c181493f0bfc8252de48b3e3a2f2bec18ac6dee92fc"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Text.Json.dll",
+              "sha256": "af9434b014f6354ef6d1f8263be4744f37d126f89380712c2de595bf275802fe"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Threading.Channels.dll",
+              "sha256": "3ea130b495d4c835c9983b65d14adaa2e045692fc3a8c84eba4c3e99d14b5f75"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.Threading.Tasks.Extensions.dll",
+              "sha256": "d8ff6f3fa3ee82775eb15514723b6f70222ba7e86b434dd105e57a17c1782c09"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/System.ValueTuple.dll",
+              "sha256": "a5b532c448690615371deb67521f1271e91aa2c634abb0df88ade55e8150ee30"
+            },
+            {
+              "path": "GUI/Brushes/CoopPlayerList.xml",
+              "sha256": "46e4aabde60036ed82f9d3026d442ab0c0a2229972299d0d884fe77e0fbc8a38"
+            },
+            {
+              "path": "GUI/Prefabs/CoopBugReportUIMovie.xml",
+              "sha256": "9fa2cdacce7b889823274feab17108958e499b697a083697bfc9baa4eda00140"
+            },
+            {
+              "path": "GUI/Prefabs/CoopChatUIMovie.xml",
+              "sha256": "4ac0210f9c12e04569c0cdabec014ced7666534f6234c08e39d1a534522ea7f2"
+            },
+            {
+              "path": "GUI/Prefabs/CoopConnectionUIMovie.xml",
+              "sha256": "a2b6cfdc0939a8f5f44353b902be4110702d31bfb65a47f40e6ca6f1891c2ab4"
+            },
+            {
+              "path": "GUI/Prefabs/CoopJoinCancelOverlay.xml",
+              "sha256": "7c20c2f5630f55335bdbb503ba8eb45a562e6043ef580976355d694567a952c4"
+            },
+            {
+              "path": "GUI/Prefabs/CoopLocationPlayerInteractionWaitingOverlay.xml",
+              "sha256": "c1d5f0563c307e88f0200766f6e1d74841bf6cb814b82d32c749d02e0396b674"
+            },
+            {
+              "path": "GUI/Prefabs/CoopOptionsUIMovie.xml",
+              "sha256": "f9968f90f96ba545061026e56f9b79dc99f3bc220b5b153711742e1d52f85690"
+            },
+            {
+              "path": "GUI/Prefabs/CoopPlayerListUIMovie.xml",
+              "sha256": "249fb9c04892ffcec628c9c885ca67c8c834ce777a25a4a32ab683d787e248e0"
+            },
+            {
+              "path": "GUI/Prefabs/CoopPlayerPartyTradeOverlay.xml",
+              "sha256": "91e4e31cffa9bb9281d7105f6884dfea2fb4cae9a3f703844404df2b4ce41861"
+            },
+            {
+              "path": "GUI/Prefabs/CoopTournamentScreen.xml",
+              "sha256": "f5449ea591b4669ba268c7b447e782833babc82c96cae36269ace40403985a7c"
+            },
+            {
+              "path": "GUI/Prefabs/CoopVoiceSpeakers.xml",
+              "sha256": "9598f6b96cf2560caca9fc1899dfdd5391ac866bed72733fd1a5b6e6a6211bf6"
+            },
+            {
+              "path": "GUI/Prefabs/CreditsPopupUIMovie.xml",
+              "sha256": "e60c58da6973603f436767b0f71b37b672a1c8143ffec61e882b240ca68b50cb"
+            },
+            {
+              "path": "GUI/Prefabs/DonatePopupUIMovie.xml",
+              "sha256": "c03103adc3b757f573fbd4b1b0435d3d79792c7f2c6d05dafce77f2e37f5405c"
+            },
+            {
+              "path": "GUI/Prefabs/EncyclopediaSettlementPage.xml",
+              "sha256": "7cced256c0c10417445ef227c0b776655aaf9dacc573908c959e140d1879184a"
+            },
+            {
+              "path": "GUI/Prefabs/MissionMapTime.xml",
+              "sha256": "ade460c05e4260fc7a4dd7010eccc8a5bdb6df386932ee20221ec2397fe3eed7"
+            },
+            {
+              "path": "GUI/Prefabs/PlayerNameplates.xml",
+              "sha256": "4e8e9cfd33721c426089017452e055f5690dd857e42770f37ff432670607566c"
+            },
+            {
+              "path": "ModuleData/coop_fixed_town_npcs.xml",
+              "sha256": "04475a38473d593561cbf89cb19d7e3940bfb13fa05b284817a3aae2266a2c3c"
+            },
+            {
+              "path": "ModuleData/coop_minor_faction_lords.xml",
+              "sha256": "c441089869fb2d1ec2c4ff954f9771946078d1977bf26f986e2b8399030de5d6"
+            },
+            {
+              "path": "ModuleData/coop_minor_factions.xml",
+              "sha256": "3a22c896f2b672fe0729901f8f0e54d6dfc1ebee39fce0740cbe801ef9a1fdfd"
+            },
+            {
+              "path": "ModuleData/coop_wanderer_strings.xml",
+              "sha256": "08e2d3418eebb6532f85dc5a8b517f430550c45090094c52005fe6e4ac830bb7"
+            },
+            {
+              "path": "ModuleData/coop_wanderers.xml",
+              "sha256": "c1b2bc6f08c765eefcf1cea61814c99e9c1fbec2600ddf0c87521c246741ee9e"
+            },
+            {
+              "path": "ModuleData/global_strings.xml",
+              "sha256": "fab6b14727228293c89659c173afe71ae4b21442e777ccf23da7baaa7008a71a"
+            },
+            {
+              "path": "ModuleData/tournament_spectator_throwables.xml",
+              "sha256": "0d718f51534f4801793d1716c50e329531410a81c51b010b583bdcc9c277cdbb"
+            },
+            {
+              "path": "SubModule.xml",
+              "sha256": "5245f653de28920b5f3b6e1cad7f72d53ba7db59144c1dc20f0d43c2b72aa8b4"
+            }
+          ]
+        },
+        {
+          "id": "DolmeongiCoopKorean",
+          "name": "Co-op 한국어",
+          "source": "github",
+          "moduleId": "DolmeongiCoopKorean",
+          "version": "0.1.0",
+          "root": "Modules/DolmeongiCoopKorean",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.2/DolmeongiCoopKorean-0.1.0.zip",
+          "sha256": "7b0f8f1078e86b828a2b4db3e157c2666a9f97eced903fa2fcb5998e0f96c613",
+          "files": [
+            {
+              "path": "bin/Win64_Shipping_Client/CoopKorean.dll",
+              "sha256": "f406fbb5e89a8f5c36398603a09ba8a3c3dc6750836c719c09f53950ad9bd599"
+            },
+            {
+              "path": "ModuleData/Languages/KO/coop_korean.xml",
+              "sha256": "98c3f46cff59ef2d03037963faf60047ca3fd7d7d8f403bf77245631403addbe"
+            },
+            {
+              "path": "ModuleData/Languages/KO/language_data.xml",
+              "sha256": "bbf854e16dcd02f2c6c01f0174656b28d3da4783d88f04b30c9aca298079bbc0"
+            },
+            {
+              "path": "SubModule.xml",
+              "sha256": "3b0061aa459ebf3035465d3f081decf015a066db323bcebcdc2708d19233e6af"
+            }
+          ]
+        },
+        {
+          "id": "DolmeongiCoopLowWages",
+          "name": "유지비 5% · 예산 표시",
+          "source": "github",
+          "moduleId": "DolmeongiCoopLowWages",
+          "version": "0.1.1",
+          "root": "Modules/DolmeongiCoopLowWages",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.2/DolmeongiCoopLowWages-0.1.1.zip",
+          "sha256": "31a72ace8d060e8dc4d9c973431fdc874e5e73d1e21160082abf661f4e671d60",
+          "files": [
+            {
+              "path": "bin/Win64_Shipping_Client/CoopLowWages.Client.dll",
+              "sha256": "8eac7a2982ab98a47711bc35601a12f638eb9e920222e6eac65fab0fd98011ca"
+            },
+            {
+              "path": "bin/Win64_Shipping_Client/CoopLowWages.dll",
+              "sha256": "4ca2b8e320681b71ac6856b2b6d2248ff98c52b2ecc03dac78a8a0e43d826294"
+            },
+            {
+              "path": "SubModule.xml",
+              "sha256": "a2e0aad1208daf16304a6d2aa1172dcc82ee26c965d32c8e13063620e0e6c4ee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palworld",
+      "title": "팰월드",
+      "status": "hidden",
+      "message": "모드 구성과 게임별 설치·실행 연결을 준비하면 이 접속기에 추가됩니다.",
+      "appId": "1623730",
+      "folder": "Palworld",
+      "adapter": null,
+      "modules": [],
+      "processes": [
+        "Palworld-Win64-Shipping",
+        "PalServer-Win64-Shipping"
+      ],
+      "gameFiles": [],
+      "components": []
+    }
+  ]
+}
