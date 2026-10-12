@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": "launcher-0.1.5-20261012T191542Z",
+  "revision": "kingdom-tracker-0.1.0-20261012T204928Z",
   "launcher": {
     "version": "0.1.5",
     "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.5/DolmeongiLauncher.exe",
@@ -23,7 +23,8 @@
         "StoryMode",
         "Coop",
         "DolmeongiCoopKorean",
-        "DolmeongiCoopLowWages"
+        "DolmeongiCoopLowWages",
+        "DolmeongiCoopKingdomTracker"
       ],
       "processes": [
         "Bannerlord",
@@ -72,6 +73,10 @@
         {
           "path": "Modules/StoryMode/SubModule.xml",
           "sha256": "fc2d9ad4f60d52e01e35c587ec809ab7fbcc6e0ddad1e3b5bf4aa94f1fd408a3"
+        },
+        {
+          "path": "Modules/SandBox/bin/Win64_Shipping_Client/SandBox.ViewModelCollection.dll",
+          "sha256": "8c4b2ca448a3bc8789a6f8d7b4427e7a9832a31c45dd79e9034173535ebaebf4"
         }
       ],
       "components": [
@@ -446,6 +451,26 @@
             {
               "path": "SubModule.xml",
               "sha256": "a2e0aad1208daf16304a6d2aa1172dcc82ee26c965d32c8e13063620e0e6c4ee"
+            }
+          ]
+        },
+        {
+          "id": "DolmeongiCoopKingdomTracker",
+          "name": "같은 왕국 시청자 위치",
+          "source": "github",
+          "moduleId": "DolmeongiCoopKingdomTracker",
+          "version": "0.1.0",
+          "root": "Modules/DolmeongiCoopKingdomTracker",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.1.0/DolmeongiCoopKingdomTracker-0.1.0.zip",
+          "sha256": "759598c9e39b437e12be4285648226e1acb188b72e5132a8fbe0637885cf3362",
+          "files": [
+            {
+              "path": "bin/Win64_Shipping_Client/CoopKingdomTracker.dll",
+              "sha256": "30836279b7e005873576a782cc12536ac0f1f0bc3cf2b792be29e99851281583"
+            },
+            {
+              "path": "SubModule.xml",
+              "sha256": "82c6bc449cbecbe40f542351700c733eda7e7543e1b5758725ffcf5b547d987a"
             }
           ]
         }
