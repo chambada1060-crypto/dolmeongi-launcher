@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "revision": "2026-10-12T00:03:28.1181253Z",
+  "revision": "2026-10-12T00:07:52.1603929Z",
   "launcher": {
-    "version": "0.1.0",
-    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.0/DolmeongiLauncher.exe",
-    "sha256": "21e80dc9f0007a378324fc8498568d39d195c181c23251954e80b7b6bbbd22fc"
+    "version": "0.1.1",
+    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.1/DolmeongiLauncher.exe",
+    "sha256": "ae55c45e81d1bf107a3c9302a351cd1dacc35e530ca2545f1b1f81d78150c6d6"
   },
   "games": [
     {
@@ -404,12 +404,12 @@
           "moduleId": "DolmeongiCoopKorean",
           "version": "0.1.0",
           "root": "Modules/DolmeongiCoopKorean",
-          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.0/DolmeongiCoopKorean-0.1.0.zip",
-          "sha256": "6c9a5f15f6acf0f8ee89b9b8a8525d506cea447f8c43b3864ec6540d1feaf6c8",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.1/DolmeongiCoopKorean-0.1.0.zip",
+          "sha256": "f20464d5090719eee0295b23a6f4a6bd5f3835f153aa5769834876f99df9a719",
           "files": [
             {
               "path": "bin/Win64_Shipping_Client/CoopKorean.dll",
-              "sha256": "0580da258b928b7839d6ac0a25df9961c76292ed6aa4f8dc78afdfbc19282516"
+              "sha256": "29d54b56b15bec087125d718b641e72891fdc230d7ebcdb4e863564766c1c3ec"
             },
             {
               "path": "ModuleData/Languages/KO/coop_korean.xml",
@@ -432,16 +432,16 @@
           "moduleId": "DolmeongiCoopLowWages",
           "version": "0.1.1",
           "root": "Modules/DolmeongiCoopLowWages",
-          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.0/DolmeongiCoopLowWages-0.1.1.zip",
-          "sha256": "74c6d8a406508bd173160fe3c8939a53f8309c014402d61406b2f09f9c45584f",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.1/DolmeongiCoopLowWages-0.1.1.zip",
+          "sha256": "85f913facc77353d92cfd0da2299b85b8d20bdf2f5cdab5087d62e8d6415c4a0",
           "files": [
             {
               "path": "bin/Win64_Shipping_Client/CoopLowWages.Client.dll",
-              "sha256": "c3bb4a37aa6d233f948ab0451b0243d124987de4254bd8f6c718911976841ddb"
+              "sha256": "dccff47e5b4cd2f6d4d94400effdf038df94b17c654beb1a947923a9804f5cc9"
             },
             {
               "path": "bin/Win64_Shipping_Client/CoopLowWages.dll",
-              "sha256": "36755c0375c2bbdccdd7376ac05d8bd3d491745db661e64a51b339375c3bda5b"
+              "sha256": "d81fd566db4f5b7da56046938256f05c1bea35f4744b1ba448afffd966667ca2"
             },
             {
               "path": "SubModule.xml",
