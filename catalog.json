@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": "kingdom-tracker-0.1.0-20261012T204928Z",
+  "revision": "kingdom-tracker-0.2.0-20261012T211808Z",
   "launcher": {
     "version": "0.1.5",
     "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.5/DolmeongiLauncher.exe",
@@ -77,6 +77,10 @@
         {
           "path": "Modules/SandBox/bin/Win64_Shipping_Client/SandBox.ViewModelCollection.dll",
           "sha256": "8c4b2ca448a3bc8789a6f8d7b4427e7a9832a31c45dd79e9034173535ebaebf4"
+        },
+        {
+          "path": "Modules/SandBox/bin/Win64_Shipping_Client/SandBox.View.dll",
+          "sha256": "c7360e71da06799a0cb6c00c4a0cfab5877621197ba25101433ac28654d169e2"
         }
       ],
       "components": [
@@ -456,21 +460,21 @@
         },
         {
           "id": "DolmeongiCoopKingdomTracker",
-          "name": "같은 왕국 시청자 위치",
+          "name": "동료 위치 · Kasushi 따라가기",
           "source": "github",
           "moduleId": "DolmeongiCoopKingdomTracker",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "root": "Modules/DolmeongiCoopKingdomTracker",
-          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.1.0/DolmeongiCoopKingdomTracker-0.1.0.zip",
-          "sha256": "759598c9e39b437e12be4285648226e1acb188b72e5132a8fbe0637885cf3362",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.2.0/DolmeongiCoopKingdomTracker-0.2.0.zip",
+          "sha256": "657db14ef1d23fcd327f34a084243813bdffee4a4c7d13eb7d8c5ceeaafa4f83",
           "files": [
             {
               "path": "bin/Win64_Shipping_Client/CoopKingdomTracker.dll",
-              "sha256": "30836279b7e005873576a782cc12536ac0f1f0bc3cf2b792be29e99851281583"
+              "sha256": "a7876ee4e86e7b45ab1835e45394dce9d029cec68aad7fb2b46620e6a758674d"
             },
             {
               "path": "SubModule.xml",
-              "sha256": "82c6bc449cbecbe40f542351700c733eda7e7543e1b5758725ffcf5b547d987a"
+              "sha256": "c8a3f689106fd6b343e5b3c195770ba76285416d6f1b3f843ada7009226576ff"
             }
           ]
         }
