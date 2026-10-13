@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": "kingdom-tracker-0.2.0-20261012T211808Z",
+  "revision": "kingdom-tracker-0.2.1-20261013T230735Z",
   "launcher": {
     "version": "0.1.5",
     "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.5/DolmeongiLauncher.exe",
@@ -81,6 +81,10 @@
         {
           "path": "Modules/SandBox/bin/Win64_Shipping_Client/SandBox.View.dll",
           "sha256": "c7360e71da06799a0cb6c00c4a0cfab5877621197ba25101433ac28654d169e2"
+        },
+        {
+          "sha256": "5d817a46456d07b5e4382a870795fd9f8d6f11b4707a91d8a8b5d5cd50e762a5",
+          "path": "bin/Win64_Shipping_Client/TaleWorlds.CampaignSystem.ViewModelCollection.dll"
         }
       ],
       "components": [
@@ -460,21 +464,21 @@
         },
         {
           "id": "DolmeongiCoopKingdomTracker",
-          "name": "동료 위치 · Kasushi 따라가기",
+          "name": "동료 위치 · 따라가기 · 투표창 복구",
           "source": "github",
           "moduleId": "DolmeongiCoopKingdomTracker",
-          "version": "0.2.0",
+          "version": "0.2.1",
           "root": "Modules/DolmeongiCoopKingdomTracker",
-          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.2.0/DolmeongiCoopKingdomTracker-0.2.0.zip",
-          "sha256": "657db14ef1d23fcd327f34a084243813bdffee4a4c7d13eb7d8c5ceeaafa4f83",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.2.1/DolmeongiCoopKingdomTracker-0.2.1.zip",
+          "sha256": "105cbb6e7d2e35decd7b4c86dc08fede44af9c4888212c963dd8d0db3629e880",
           "files": [
             {
-              "path": "bin/Win64_Shipping_Client/CoopKingdomTracker.dll",
-              "sha256": "a7876ee4e86e7b45ab1835e45394dce9d029cec68aad7fb2b46620e6a758674d"
+              "sha256": "9743ce4e65cd39e0b2825266aa4a4cbec47c42e7985d107fa9555751480bd1be",
+              "path": "bin/Win64_Shipping_Client/CoopKingdomTracker.dll"
             },
             {
-              "path": "SubModule.xml",
-              "sha256": "c8a3f689106fd6b343e5b3c195770ba76285416d6f1b3f843ada7009226576ff"
+              "sha256": "eef013df397e4c0107318170f3c41abde8f71b3540036b9b1f7f717c9a5a9e44",
+              "path": "SubModule.xml"
             }
           ]
         }
