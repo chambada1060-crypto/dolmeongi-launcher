@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "revision": "kingdom-tracker-0.2.1-20261013T230735Z",
+  "revision": "launcher-0.1.6-20261014T180956Z",
   "launcher": {
-    "version": "0.1.5",
-    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.5/DolmeongiLauncher.exe",
-    "sha256": "8665f35a26a7300a3a879558e5f7c9bafc868879c8d4c525dcc96ef2a6efcb79"
+    "version": "0.1.6",
+    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.6/DolmeongiLauncher.exe",
+    "sha256": "fbd1842e809c9a844d71897101984c38766569f62ddcf21d3351f5b6ffc3f254"
   },
   "games": [
     {
