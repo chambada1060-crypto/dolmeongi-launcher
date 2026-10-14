@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "revision": "launcher-0.1.9-20261014T190818Z",
+  "revision": "launcher-0.1.10-20261014T193717Z",
   "launcher": {
-    "version": "0.1.9",
-    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.9/DolmeongiLauncher.exe",
-    "sha256": "587e0009d7effc7e1c52a718691dc1c425c8c9ad6531d22921c110a69c648e10"
+    "version": "0.1.10",
+    "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.10/DolmeongiLauncher.exe",
+    "sha256": "97f0133e8461657933ee8f565ecb52eab97078beb14563436c67a7dea5cc4d3e"
   },
   "games": [
     {
