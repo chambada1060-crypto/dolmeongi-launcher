@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": "kingdom-tracker-0.3.0-20261017T181032Z",
+  "revision": "daylight-startup-fix-pending-20261017T184321Z",
   "launcher": {
     "version": "0.1.10",
     "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/v0.1.10/DolmeongiLauncher.exe",
@@ -464,21 +464,21 @@
         },
         {
           "id": "DolmeongiCoopKingdomTracker",
-          "name": "동료 위치 · 따라가기 · 투표창 복구 · 낮 전투",
+          "name": "동료 위치 · 따라가기 · 투표창 복구",
           "source": "github",
           "moduleId": "DolmeongiCoopKingdomTracker",
-          "version": "0.3.0",
+          "version": "0.2.1",
           "root": "Modules/DolmeongiCoopKingdomTracker",
-          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.3.0/DolmeongiCoopKingdomTracker-0.3.0.zip",
-          "sha256": "0c92e3a08c5dcef3479983e2a0547892173d5b58115a78ab09c292a707b4f189",
+          "url": "https://github.com/chambada1060-crypto/dolmeongi-launcher/releases/download/kingdom-tracker-v0.2.1/DolmeongiCoopKingdomTracker-0.2.1.zip",
+          "sha256": "105cbb6e7d2e35decd7b4c86dc08fede44af9c4888212c963dd8d0db3629e880",
           "files": [
             {
-              "path": "bin/Win64_Shipping_Client/CoopKingdomTracker.dll",
-              "sha256": "3e1b2b346ead3d639b2854f6c685dbfd3ccaef9f636fca6dd94782bb9eb3ff3d"
+              "sha256": "9743ce4e65cd39e0b2825266aa4a4cbec47c42e7985d107fa9555751480bd1be",
+              "path": "bin/Win64_Shipping_Client/CoopKingdomTracker.dll"
             },
             {
-              "path": "SubModule.xml",
-              "sha256": "b8694cc641431469f4b4a965279536f44f8551b829ef250bfe5630013e41e7c2"
+              "sha256": "eef013df397e4c0107318170f3c41abde8f71b3540036b9b1f7f717c9a5a9e44",
+              "path": "SubModule.xml"
             }
           ]
         }
